@@ -1,7 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
-class ThemedDecorations extends React.component{
+export default class ThemedDecorations extends React.component{
   render() {
     const childrenProp = React.Children.map(this.props.children, child => {
      return React.cloneElement(child, {
