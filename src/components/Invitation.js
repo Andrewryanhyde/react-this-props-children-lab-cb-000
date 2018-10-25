@@ -7,9 +7,8 @@ class Invitation extends React.component{
     return(
       <div>
         <h1>"You've been invited"</h1>
+        <div>{this.props.children}</div>
       </div>
-
-      
     )
   }
 }
